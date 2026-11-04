@@ -1,0 +1,47 @@
+{
+  "name": "@anandommi/fields2cover",
+  "version": "0.1.0",
+  "description": "Pure-JavaScript Fields2Cover-style coverage path planner for mowers: headlands, boustrophedon cells, swaths, Dubins turns and headland laps on GeoJSON fields.",
+  "main": "index.js",
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "lib/",
+    "LICENSE",
+    "README.md",
+    "CHANGELOG.md"
+  ],
+  "scripts": {
+    "test": "node test/smoke.js",
+    "prepublishOnly": "npm test"
+  },
+  "keywords": [
+    "fields2cover",
+    "coverage-path-planning",
+    "boustrophedon",
+    "dubins",
+    "mower",
+    "geojson",
+    "turf"
+  ],
+  "license": "BSD-3-Clause",
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@turf/turf": "^7.2.0"
+  },
+  "author": "Anand (https://github.com/AnandOmmi)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AnandOmmi/fields2cover.git"
+  },
+  "homepage": "https://github.com/AnandOmmi/fields2cover#readme",
+  "bugs": {
+    "url": "https://github.com/AnandOmmi/fields2cover/issues"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "index.d.ts"
+}
