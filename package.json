@@ -1,6 +1,6 @@
 {
   "name": "@anandommi/fields2cover",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Pure-JavaScript Fields2Cover-style coverage path planner for mowers: headlands, boustrophedon cells, swaths, Dubins turns and headland laps on GeoJSON fields.",
   "main": "index.js",
   "files": [
